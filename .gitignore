@@ -13,6 +13,10 @@
 
 # misc
 .DS_Store
+# FLAG
+# see we include .env in our gitignore to make sure our credentials don't
+# get commited to the repo
+.env
 .env.local
 .env.development.local
 .env.test.local
